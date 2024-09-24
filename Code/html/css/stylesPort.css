@@ -91,3 +91,65 @@ html, body {
     width: 1110px;
     margin: 0 auto;
 }
+
+.card_list .card_item {
+    list-style: none;
+
+}
+
+.card_list .card_item .card_link {
+    width: 400px;
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+}
+
+.card_list .card_item .card_link:hover {
+    border-color: #5372F0;
+}
+
+.card_list .card_link .card_image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card_list .card_link .title_project {
+    color: black;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 16px 0 18px;
+    background: #DDE4FF;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.card_list .card_link .description_project {
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.card_list .card_link .card-button {
+    height: 35px;
+    width: 35px;
+    color: #5372F0;
+    border-radius: 50%;
+    margin: 30px 0 5px;
+    background: none;
+    cursor: pointer;
+    border: 2px solid #5372F0;
+    transform: rotate(-45deg);
+}
+
+.card_list .card_link:hover .card-button {
+    color: #fff;
+    background: #5372F0;
+}
