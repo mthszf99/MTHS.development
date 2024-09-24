@@ -7,7 +7,7 @@
 <img src="img/Home.png">
 
 ### Tela Sobre Nós:
-<img src="img/Sobre Nós.png">
+<img src="img/Sobre.png">
 
 ### Tela Portifólio:
 <img src="img/Portifolio.png">

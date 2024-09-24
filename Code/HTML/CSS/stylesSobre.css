@@ -50,13 +50,10 @@ table {
 
 /* aqui começa o css da pagina*/
 
-
-
 html, body {
 	background-color: black;
 	font-family: "DM Sans", sans-serif;
 }
-
 .logo {
     width: 138px;
     height: 70px;
@@ -92,37 +89,37 @@ html, body {
     margin: 0 auto;
 }
 
-.apresentacao {
-	padding-top: 40px;
-	background: url(../../ImgCode/Background01.png) no-repeat 0 0;
+.Sobre {
+    padding-top: 40px;
+    background: url(../../ImgCode/Background02.png) no-repeat 0 0;
 }
 
-.introducao_home {
+.introducao_sobre {
 	padding-top: 100px;
 }
 
-.titulo_introducao {
-	padding-top: 80px;
+.titulo_sobre {
+	padding-top: 60px;
 	font-size: 50px;
 	font-family: "DotGothic16", sans-serif;
 	color: #fff;
 	line-height: 48px;
 }
-.welcome {
+
+.descricao_sobre {
 	font-size: 30px;
 	font-family: "Dongle", sans-serif;
 	color: #fff;
 	line-height: 18px;
-	margin: 60px 0 30px 0;
+	margin: 40px 0 30px 0;
 }
 
-.introducao_descricao {
+.apresentacao_sobre {
 	width: 50%;
 	float: left;
 }
 
-.compiuter {
-	padding-top: 20px;
+.compiuter02 {
 	width: 50%;
 	float: left;
 }
