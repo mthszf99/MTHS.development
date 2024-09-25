@@ -61,10 +61,11 @@ html, body {
     background-color: rgba(78, 65, 165, 0.226);
     height: 600px;
     border-radius: 10px;
+    top: 100px;
 }
 
 .card_portifolio {
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 100px;
 }
 
@@ -99,6 +100,7 @@ html, body {
 }
 
 .center {
+    padding-top: 40px;
     width: 1110px;
     margin: 0 auto;
 }
