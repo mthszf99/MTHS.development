@@ -57,6 +57,17 @@ html, body {
 	font-family: "DM Sans", sans-serif;
 }
 
+.portifolio {
+    background-color: rgba(78, 65, 165, 0.226);
+    height: 600px;
+    border-radius: 10px;
+}
+
+.card_portifolio {
+    margin-top: 10px;
+    padding: 100px;
+}
+
 .logo {
     width: 138px;
     height: 70px;
@@ -98,10 +109,10 @@ html, body {
 }
 
 .card_list .card_item .card_link {
-    width: 400px;
+    width: 300px;
     display: block;
-    background: #fff;
-    padding: 18px;
+    background: #ffffff57;
+    padding: 20px;
     border-radius: 10px;
     text-decoration: none;
     border: 2px solid transparent;

@@ -1,16 +1,30 @@
-const imagem = document.getElementById("imagens");
-const imagens = document.querySelectorAll("#imagens imagens");
+new Swiper('.card_portifolio', {
+    loop: true,
+    spaceBetween: 30,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
 
-let idx = 0;
-
-function carrossel(){
-    idx++;
-
-    if(idx > imagens.length - 1){
-        idx = 0;
+    breakpoints: {
+        0: {
+            slidesPerView: 1
+        },
+        768: {
+            slidesPerView: 2
+        },
+        0: {
+            slidesPerView: 3
+        },
     }
 
-    imagem.style.transform = `translateX(${-idx * 200}px)`;
-}
 
-setInterval(carrossel, 1800);
+  });
+  

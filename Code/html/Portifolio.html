@@ -13,8 +13,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portifólio</title>
     <link rel="stylesheet" href="css/stylesPort.css" />
+    <!--SwiperJS para configurar o carrossel-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <title>Portifólio</title>
+
   </head>
   <body>
     <div class="center">
@@ -42,52 +45,56 @@
       <div class="clear"></div>
     </div>
 
-    <div class="portifolio">
-        <div class="card_portifolio">
-            <ul class="card_list">
-                <li class="card_item">
-                    <a href="" class="card_link">
-                        <img src="../ImgCode/Logo_CarroNaMao.jpeg" alt="Card Image" class="card_image">
-                        <h2 class="title_project">Carro na Mão</h2>
-                        <p class="description_project">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <span class="card-button material-symbols-outlined">arrow_forward</span>
-                    </a>
-                </li>
-                <li class="card_item"></li>
-                    <a href="" class="card_link">
-                        <img src="../ImgCode/Logo_CarroNaMao.jpeg" alt="Card Image" class="card_image">
-                        <h2 class="title_project">Carro na Mão</h2>
-                        <p class="description_project">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <span class="card-button material-symbols-outlined">arrow_forward</span>
-                    </a>
-                </li>
-                <li class="card_item"></li>
-                    <a href="" class="card_link">
-                        <img src="../ImgCode/Logo_CarroNaMao.jpeg" alt="Card Image" class="card_image">
-                        <h2 class="title_project">Carro na Mão</h2>
-                        <p class="description_project">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <span class="card-button material-symbols-outlined">arrow_forward</span>
-                    </a>
-                </li>
-                <li class="card_item"></li>
-                    <a href="" class="card_link">
-                        <img src="../ImgCode/Logo_CarroNaMao.jpeg" alt="Card Image" class="card_image">
-                        <h2 class="title_project">Carro na Mão</h2>
-                        <p class="description_project">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <span class="card-button material-symbols-outlined">arrow_forward</span>
-                    </a>
-                </li>
-                <li class="card_item"></li>
-                    <a href="" class="card_link">
-                        <img src="../ImgCode/Logo_CarroNaMao.jpeg" alt="Card Image" class="card_image">
-                        <h2 class="title_project">Carro na Mão</h2>
-                        <p class="description_project">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <span class="card-button material-symbols-outlined">arrow_forward</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+    <div class="portifolio swiper center">
+      <div class="card_portifolio">
+        <ul class="card_list swiper-wrapper">
+          <li class="card_item swiper-slide">
+            <a href="" class="card_link">
+              <img src="../ImgCode/Logo_CarroNaMao.jpeg" alt="Card Image" class="card_image">
+              <h2 class="title_project first">Carro na Mão</h2>
+              <p class="description_project">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <span class="card-button material-symbols-outlined">arrow_forward</span>
+            </a>
+          </li>
+          <li class="card_item swiper-slide">
+            <a href="" class="card_link">
+              <img src="../ImgCode/Logo_CarroNaMao.jpeg" alt="Card Image" class="card_image">
+              <h2 class="title_project second">Carro na Mão</h2>
+              <p class="description_project">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <span class="card-button material-symbols-outlined">arrow_forward</span>
+            </a>
+          </li>
+          <li class="card_item swiper-slide">
+            <a href="" class="card_link">
+              <img src="../ImgCode/Logo_CarroNaMao.jpeg" alt="Card Image" class="card_image">
+              <h2 class="title_project 03">Carro na Mão</h2>
+              <p class="description_project">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <span class="card-button material-symbols-outlined">arrow_forward</span>
+            </a>
+          </li>
+          <li class="card_item swiper-slide">
+            <a href="" class="card_link">
+              <img src="../ImgCode/Logo_CarroNaMao.jpeg" alt="Card Image" class="card_image">
+              <h2 class="title_project 04">Carro na Mão</h2>
+              <p class="description_project">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <span class="card-button material-symbols-outlined">arrow_forward</span>
+            </a>
+          </li>
+          <li class="card_item swiper-slide">
+            <a href="" class="card_link">
+              <img src="../ImgCode/Logo_CarroNaMao.jpeg" alt="Card Image" class="card_image">
+              <h2 class="title_project 05">Carro na Mão</h2>
+              <p class="description_project">Lorem, ipsum dolor sit amet consectetu adipisicing elit.</p>
+              <span class="card-button material-symbols-outlined">arrow_forward</span>
+            </a>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../HTML/js/script.js"></script>
   </body>
 </html>
