@@ -63,6 +63,10 @@ html, body {
     padding: 40px;
     top: 100px;
     position: relative;
+    margin: 0 auto;
+    width: 750px;
+    border-radius: 10px;
+    justify-content: center;
 }
 
 .contato {
@@ -108,7 +112,8 @@ html, body {
 	font-size: 50px;
 	font-family: "DotGothic16", sans-serif;
 	color: #fff;
-    line-height: 48px;
+  line-height: 48px;
+  margin-left: 35%;
 }
 
 .desc_page {
@@ -116,6 +121,7 @@ html, body {
     color: #fff;
     margin-top: 28px;
     margin-bottom: 25px;
+    margin-left: 15%;
 }
 
 .social {
@@ -123,6 +129,8 @@ html, body {
     list-style: none;
     gap: 30px;
     margin-top: 40px;
+    position: relative;
+    left: 15%;
   }
   
   .item a {
@@ -186,4 +194,38 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+/* Animação dos itens de menu */
+.menu_li a {
+  color: #4F41A5;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu_li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #4F41A5, #9571F0);
+  border-radius: 10px;
+  transform: scale(0);
+  transition: transform 0.3s ease;
+  z-index: -1;
+}
+
+.menu_li a:hover {
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(79, 65, 165, 0.3);
+}
+
+.menu_li a:hover::before {
+  transform: scale(1);
 }
