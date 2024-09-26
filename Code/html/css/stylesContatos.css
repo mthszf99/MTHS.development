@@ -61,7 +61,12 @@ html, body {
     background-color: rgba(78, 65, 165, 0.226);
     height: 400px;
     padding: 40px;
-    margin-top: 100px;
+    top: 100px;
+    position: relative;
+}
+
+.contato {
+	padding-top: 40px;
 }
 
 .logo {
@@ -95,29 +100,29 @@ html, body {
 }
 
 .center {
-    padding-top: 40px; 
     width: 1110px;
     margin: 0 auto;
 }
 
-.title_pag {
+.title_page {
 	font-size: 50px;
 	font-family: "DotGothic16", sans-serif;
 	color: #fff;
     line-height: 48px;
 }
 
-.desc_pag {
-    font-size: 20px;
+.desc_page {
+    font-size: 15px;
     color: #fff;
-    margin-top: 30px;
+    margin-top: 28px;
     margin-bottom: 25px;
 }
 
-ul {
+.social {
     display: flex;
     list-style: none;
-    gap: 50px;
+    gap: 30px;
+    margin-top: 40px;
   }
   
   .item a {
@@ -171,6 +176,9 @@ ul {
   }
   .item:nth-child(3) {
     --bg-color: #006eff;
+  }
+  .item:nth-child(4) {
+    --bg-color: #34863f;
   }
 
   *,
