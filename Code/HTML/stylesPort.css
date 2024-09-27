@@ -58,10 +58,12 @@ html, body {
 }
 
 .portifolio {
-    background-color: rgba(78, 65, 165, 0.226);
     height: 650px;
     border-radius: 10px;
-    top: 90px;
+    top: 50px;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .card_portifolio {
@@ -113,7 +115,7 @@ html, body {
 }
 
 .desc_title {
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
     margin-top: 30px;
     margin-bottom: 25px;
@@ -129,7 +131,7 @@ html, body {
 .card_list .card_item .card_link {
     width: 300px;
     display: block;
-    background: #4522c433;
+    background: black;
     padding: 20px;
     border-radius: 10px;
     text-decoration: none;

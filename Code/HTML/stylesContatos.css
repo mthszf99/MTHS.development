@@ -58,13 +58,12 @@ html, body {
 }
 
 .caixa_contatos {
-    background-color: rgba(78, 65, 165, 0.226);
     height: 400px;
-    padding: 40px;
+    padding: 0px;
     top: 100px;
     position: relative;
     margin: 0 auto;
-    width: 750px;
+    width: 850px;
     border-radius: 10px;
     justify-content: center;
 }
@@ -113,7 +112,6 @@ html, body {
 	font-family: "DotGothic16", sans-serif;
 	color: #fff;
   line-height: 48px;
-  margin-left: 35%;
 }
 
 .desc_page {
@@ -121,7 +119,6 @@ html, body {
     color: #fff;
     margin-top: 28px;
     margin-bottom: 25px;
-    margin-left: 15%;
 }
 
 .social {
@@ -130,7 +127,6 @@ html, body {
     gap: 30px;
     margin-top: 40px;
     position: relative;
-    left: 15%;
   }
   
   .item a {
